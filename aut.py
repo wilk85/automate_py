@@ -36,3 +36,5 @@ def acr_push_image(): # pushuje image dockera do acr
     if acr_login_done == 0:
         acr_push_image_done = os.system('sudo docker push ' + str(sys.argv[2]).lower() + 'azurecr.io/' + str(tagged_image))
     return acr_push_image_done
+
+acr_push_image()
