@@ -4,7 +4,7 @@
 """ Pierwszy argument ktory podajemy w wywolaniu funkcji to nazwa image z tagiem np. newimage:v1
     drugi argument to nazwa naszego kontenera w azure container registry np. newcontainer lub newContainer"""
 
-__author__      = 'Sebastian Ostrowski'
+__author__      = "Sebastian Ostrowski"
 __copyright__   = "Copyright 2019, Sebastian Ostrowski"
 
 import os, sys
