@@ -24,7 +24,7 @@ def d_tag(): # taguje image dockera
         os.system('sudo docker images')
     return d_tag_done, tagged_image
 
-def acr_login(): #loguje do acr
+def acr_login(): # loguje do acr
     d_tag_done = d_tag()
     if d_tag_done == 0:
         acr_login_done = os.system('sudo az acr login --name ' + str(sys.argv[2]))
